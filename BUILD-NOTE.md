@@ -162,10 +162,18 @@ Shelbyville 39.5268,-85.7730.
    Verdicts applied: 5 pages merged/dropped, 4 city pages added, sitemap and
    homepage updated. Full tables in
    `~/workspace/hyperlocal-dumpster-rental/research/semrush-indiana-keywords.md`.
-4. **Indianapolis permit department** — disputed between secondary sources
-   (DBNS vs DPW). Pages say only "Right-of-Way Use Permit from the City of
-   Indianapolis" with no department named. Resolve against indy.gov before
-   publishing a department name.
+4. **Indianapolis permit department** — RESOLVED 2026-11-14 against indy.gov:
+   the Right-of-Way Use Permit comes from the Department of Business and
+   Neighborhood Services (DBNS), applied for online via the Accela Citizen
+   Access Portal; standard review 3–5 business days per the city's ROW Permit
+   Application (row@indy.gov, 317-327-8583, 1200 Madison Ave Suite 100,
+   Indianapolis, IN 46225). The Department of Public Works does not issue it.
+   Permit guide, Indianapolis city page and homepage updated; the old
+   "[TO CONFIRM]" markers on those pages are gone. Note: the city's separate
+   "How to obtain" guide quotes 5–7 business days; the site follows the
+   application form's 3–5 days.
+   Homepage title also fixed the same morning: "Exact Price" → "Clear Prices",
+   since exact prices are only confirmed at booking.
 5. **Evansville permit rule** — none found; pages say to check with the City of
    Evansville Public Works before street placement.
 6. **Domain handover** — Hassaan buys dumpsterrentalindiana.us on Cloudflare
