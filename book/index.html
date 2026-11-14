@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a Dumpster in Indiana | Online Booking</title>
+<meta name="description" content="Book a roll-off dumpster online in four steps. Pick a size, choose dates, add your address, and we call to confirm your exact price.">
+<link rel="canonical" href="https://dumpsterrentalindiana.us/book/">
+<meta property="og:title" content="Book a Dumpster in Indiana | Online Booking">
+<meta property="og:description" content="Book a roll-off dumpster online in four steps. Pick a size, choose dates, add your address, and we call to confirm your exact price.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dumpsterrentalindiana.us/book/">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Service","name":"Dumpster rental booking","serviceType":"Roll-off dumpster rental booking","provider":{"@type":"Organization","name":"[BUSINESS NAME]","url":"https://dumpsterrentalindiana.us/"},"areaServed":{"@type":"State","name":"Indiana"},"url":"https://dumpsterrentalindiana.us/book/"},
+{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dumpsterrentalindiana.us/"},{"@type":"ListItem","position":2,"name":"Book a dumpster","item":"https://dumpsterrentalindiana.us/book/"}]}
+]}
+</script>
+</head>
+<body>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="/">Dumpster Rental Indiana<small>Roll-off dumpsters across Indiana</small></a>
+<nav class="main-nav" aria-label="Main">
+<a href="/#sizes">Sizes</a><a href="/guides/dumpster-rental-prices-indiana/">Prices</a><a href="/guides/what-size-dumpster-do-i-need/">Size guide</a><a href="/faq/">FAQ</a><a href="/contact/">Contact</a><a class="nav-cta" href="/book/">Book now</a>
+</nav></div></header>
+<main>
+<section class="hero"><div class="wrap">
+<h1>Book a dumpster</h1>
+<p class="lede">Book a roll-off dumpster online in four steps. Pick a size, choose your dates, add your address, and send your request. No account is needed.</p>
+<div class="hero-ctas"><a class="btn" href="#booking-wizard">Start booking</a><a class="btn-ghost" href="tel:">Call [PHONE]</a></div>
+<figure><img src="/assets/images/hero-driveway-dumpster.webp" alt="Roll-off dumpster on a driveway ready for booking" width="1000" height="667" loading="eager"><figcaption>A roll-off dumpster on a driveway in Indiana.</figcaption></figure>
+</div></section>
+<div class="wrap">
+<div class="quick-answer"><h2>Quick answer</h2><p>Your booking is a request until we confirm it. We call you to confirm your size, your dates, and your exact price. No payment is taken on this page.</p></div>
+<form class="tool" id="booking-wizard">
+<ol class="steps"><li class="active">1. Size</li><li>2. Dates</li><li>3. Address</li><li>4. Contact</li></ol>
+<div class="step-panel active">
+<h2>Step 1: pick your size</h2>
+<div class="size-pick">
+<button type="button" data-size="10">10-yard<br><small>small cleanout</small></button>
+<button type="button" data-size="20">20-yard<br><small>most popular</small></button>
+<button type="button" data-size="30">30-yard<br><small>big renovation</small></button>
+<button type="button" data-size="40">40-yard<br><small>demolition</small></button>
+</div>
+<input type="hidden" id="bk-size" value="">
+<p><button class="btn" type="button" data-next>Continue</button></p>
+</div>
+<div class="step-panel">
+<h2>Step 2: pick your dates</h2>
+<label for="bk-date">Delivery date</label>
+<input type="date" id="bk-date">
+<label for="bk-days">Rental days</label>
+<select id="bk-days"><option>7 days (standard)</option><option>3 days</option><option>10 days</option><option>14 days</option></select>
+<p><button class="btn-ghost" style="color:var(--green);border-color:var(--green)" type="button" data-prev>Back</button> <button class="btn" type="button" data-next>Continue</button></p>
+</div>
+<div class="step-panel">
+<h2>Step 3: delivery address</h2>
+<label for="bk-city">City</label>
+<select id="bk-city">
+<option value="">Choose your city</option>
+<option>Indianapolis</option><option>Fort Wayne</option><option>Evansville</option><option>South Bend</option><option>Carmel</option><option>Fishers</option><option>Bloomington</option><option>Hammond</option><option>Gary</option><option>Lafayette</option><option>Another Indiana city</option>
+</select>
+<label for="bk-street">Street address</label>
+<input type="text" id="bk-street" autocomplete="street-address" placeholder="Street and number">
+<label for="bk-place">Where should the dumpster go?</label>
+<select id="bk-place"><option>Driveway</option><option>Street (a city permit may be needed)</option><option>Jobsite</option><option>Other</option></select>
+<p><button class="btn-ghost" style="color:var(--green);border-color:var(--green)" type="button" data-prev>Back</button> <button class="btn" type="button" data-next>Continue</button></p>
+</div>
+<div class="step-panel">
+<h2>Step 4: your details</h2>
+<p id="booking-summary" class="notice">Your booking: size not picked yet.</p>
+<label for="bk-name">Your name</label>
+<input type="text" id="bk-name" autocomplete="name">
+<label for="bk-phone">Phone number</label>
+<input type="tel" id="bk-phone" autocomplete="tel" placeholder="(317) 555-0100">
+<label for="bk-notes">Anything we should know? (optional)</label>
+<textarea id="bk-notes" rows="3"></textarea>
+<p><button class="btn-ghost" style="color:var(--green);border-color:var(--green)" type="button" data-prev>Back</button> <button class="btn" type="submit">Request my booking</button></p>
+<p>Prefer to talk? Call [PHONE]. No payment is taken on this page. We confirm your exact price before you pay.</p>
+</div>
+</form>
+<div class="result-box" id="booking-done" hidden>
+<h2>Booking request received</h2>
+<p>Thank you. We will call you to confirm your size, dates, and exact price. If you need it faster, call [PHONE].</p>
+</div>
+<section>
+<h2>What happens after you book</h2>
+<p>First, we read your request. Then we call you at the number you gave. We confirm three things on that call: your size, your dates, and your exact price. If the size looks wrong for your debris, we can change it then. If your dates need to move, we can change them then too. You pay only after the price is confirmed. We do not take payment on this page. If we cannot reach you, we try again. Keep your phone close after you send the request.</p>
+</section>
+<section>
+<h2>Price transparency</h2>
+<p>Your final bill has four parts. The base rental covers delivery, pickup, disposal, and your rental days. The included weight covers a set number of tons. [TO CONFIRM] Overage covers weight past that limit. Extra days cover time past your rental period. Published market ranges show overage fees of $40 to $100 per ton in most cases. Extra days run $10 to $25 per day in most cases. Those are market ranges, not our prices. Your exact base price is confirmed on the call before you pay. So are your included tons, overage rate, and extra day rate. Ask for all four numbers. Write them down.</p>
+<p>Not sure which size fits your job? Use the estimator on the <a href="/">homepage</a> or read <a href="/guides/what-size-dumpster-do-i-need/">what size dumpster do I need</a>. Check <a href="/guides/dumpster-rental-prices-indiana/">Indiana prices</a> for published market ranges by size and city.</p>
+</section>
+<section>
+<h2>What you need before delivery</h2>
+<p>Use this checklist before the truck arrives. It keeps delivery fast and safe.</p>
+<ul>
+<li>Clear a straight path 10.5 feet wide and 60 feet long for the truck.</li>
+<li>Clear 25 to 30 feet of space above the drop spot, free of wires and branches.</li>
+<li>Move cars, bins, and toys out of the driveway.</li>
+<li>Mark the exact drop spot with cones or chalk if the driver needs a guide.</li>
+<li>Pick driveway placement when you can. A driveway usually needs no permit.</li>
+<li>Street placement may need a city permit. Get the permit before delivery day.</li>
+<li>Check your HOA rules before delivery if your home has an HOA.</li>
+<li>Keep banned items out of the load. See <a href="/guides/what-can-you-put-in-a-dumpster/">what can go in a dumpster</a>.</li>
+</ul>
+<p>If the truck cannot reach the drop spot, delivery may fail. Call us before delivery day if your driveway is narrow, steep, or shared. Read <a href="/guides/will-a-dumpster-damage-my-driveway/">will a dumpster damage my driveway</a> and <a href="/guides/how-to-rent-a-dumpster/">how to rent a dumpster</a> for more prep tips.</p>
+</section>
+<section><h2>Frequently asked questions</h2>
+<details><summary>Is my booking confirmed when I send the form?</summary><p>No. Your booking is a request until we call and confirm it. We confirm your size, dates, and exact price on the call.</p></details>
+<details><summary>Do I pay when I book?</summary><p>No. No payment is taken on this page. You pay only after your exact price is confirmed.</p></details>
+<details><summary>Can I change my size or dates after I book?</summary><p>Yes. Tell us on the confirmation call. We can change the size or move the dates if space allows.</p></details>
+<details><summary>What if I need the dumpster on the street?</summary><p>Street placement usually needs a city permit. Tell us in the notes field. Get the permit before delivery day.</p></details>
+</section>
+<section><h2>Ready to book?</h2><p>Send your booking request above when you are ready. Keep your phone close. We call to confirm the size, dates, and price.</p><p><a class="btn" href="#booking-wizard">Book a dumpster</a> <a class="btn-ghost" style="color:var(--green);border-color:var(--green)" href="tel:">Call [PHONE]</a></p></section>
+<section><h2>More from Dumpster Rental Indiana</h2><ul>
+<li><a href="/">Dumpster rental homepage</a></li>
+<li><a href="/guides/what-size-dumpster-do-i-need/">What size dumpster do I need</a></li>
+<li><a href="/guides/dumpster-permit-indiana/">Indiana permit guide</a></li>
+<li><a href="/faq/">Frequently asked questions</a></li>
+<li><a href="/contact/">Contact us</a></li>
+</ul></section>
+<p class="updated">Last updated: November 13, 2026. Prices shown are published market ranges with sources cited. Our exact prices are confirmed at booking.</p>
+</div></main>
+<footer class="site-footer"><div class="wrap"><div class="cols">
+<div><h3>Dumpster Rental Indiana</h3><p>Roll-off dumpster rental across Indiana. [BUSINESS NAME]<br>[ADDRESS]<br><a href="tel:">[PHONE]</a></p></div>
+<div><h3>Top cities</h3><ul>
+<li><a href="/indianapolis-dumpster-rental/">Dumpster rental Indianapolis</a></li>
+<li><a href="/fort-wayne-dumpster-rental/">Dumpster rental Fort Wayne</a></li>
+<li><a href="/evansville-dumpster-rental/">Dumpster rental Evansville</a></li>
+<li><a href="/south-bend-dumpster-rental/">Dumpster rental South Bend</a></li>
+<li><a href="/carmel-dumpster-rental/">Dumpster rental Carmel</a></li>
+<li><a href="/fishers-dumpster-rental/">Dumpster rental Fishers</a></li>
+<li><a href="/bloomington-dumpster-rental/">Dumpster rental Bloomington</a></li>
+<li><a href="/hammond-dumpster-rental/">Dumpster rental Hammond</a></li>
+<li><a href="/gary-dumpster-rental/">Dumpster rental Gary</a></li>
+<li><a href="/lafayette-dumpster-rental/">Dumpster rental Lafayette</a></li>
+</ul></div>
+<div><h3>Services and guides</h3><ul>
+<li><a href="/construction-dumpster-rental-indiana/">Construction dumpsters</a></li>
+<li><a href="/same-day-dumpster-rental-indiana/">Same-day delivery</a></li>
+<li><a href="/20-yard-dumpster-rental-indiana/">20-yard dumpster</a></li>
+<li><a href="/guides/dumpster-rental-prices-indiana/">Indiana prices guide</a></li>
+<li><a href="/guides/dumpster-permit-indiana/">Permit guide</a></li>
+<li><a href="/book/">Book a dumpster</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/privacy-policy/">Privacy policy</a></li>
+<li><a href="/terms-of-service/">Terms of service</a></li>
+</ul></div>
+</div><p>© 2026 Dumpster Rental Indiana. All rights reserved.</p></div></footer>
+<div class="sticky-bar"><a class="call" href="tel:">Call [PHONE]</a><a class="book" href="/book/">Book now</a></div>
+<script src="/assets/js/main.js"></script>
+</body></html>

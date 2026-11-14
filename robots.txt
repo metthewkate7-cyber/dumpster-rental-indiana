@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /book/?*
+Sitemap: https://dumpsterrentalindiana.us/sitemap.xml

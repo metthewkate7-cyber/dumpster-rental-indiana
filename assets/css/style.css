@@ -1,0 +1,117 @@
+/* Dumpster Rental Indiana — custom design, built from scratch.
+   Mobile-first. System fonts only (no render-blocking webfonts).
+   Colors: deep green #0b3d2e, safety amber #f59e0b, paper #f8faf7. */
+:root{
+  --green:#0b3d2e; --green-2:#14532d; --amber:#f59e0b; --amber-2:#d97706;
+  --ink:#1a2e22; --muted:#5b6b60; --paper:#f8faf7; --card:#ffffff;
+  --line:#dce5dc; --red:#b91c1c; --radius:12px;
+  --font:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--font);color:var(--ink);background:var(--paper);
+  font-size:17px;line-height:1.6;-webkit-text-size-adjust:100%}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--green-2)}
+h1,h2,h3{line-height:1.25;color:var(--green);margin:0 0 .5rem}
+h1{font-size:1.9rem} h2{font-size:1.45rem;margin-top:2.2rem} h3{font-size:1.15rem;margin-top:1.4rem}
+p{margin:0 0 1rem}
+ul,ol{margin:0 0 1rem;padding-left:1.3rem}
+li{margin-bottom:.35rem}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.lede{font-size:1.1rem;color:#2c4234}
+/* Header */
+.site-header{background:var(--green);color:#fff;position:sticky;top:0;z-index:50}
+.site-header .wrap{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+.brand{color:#fff;text-decoration:none;font-weight:800;font-size:1.05rem;line-height:1.2}
+.brand small{display:block;font-weight:600;font-size:.78rem;color:#cde8d4}
+.main-nav{margin-left:auto;display:flex;gap:4px;align-items:center}
+.main-nav a{color:#e7f2e9;text-decoration:none;font-size:.92rem;padding:8px 10px;border-radius:8px}
+.main-nav a:hover{background:#ffffff22}
+.nav-cta{background:var(--amber)!important;color:#231a02!important;font-weight:800}
+@media(max-width:760px){.main-nav a:not(.nav-cta){display:none}.brand{font-size:.98rem}}
+/* Hero */
+.hero{background:linear-gradient(180deg,var(--green),#0d4a37);color:#fff;padding:34px 0 26px}
+.hero h1{color:#fff;font-size:2rem;margin-bottom:.6rem}
+.hero p{color:#d7ead9;max-width:640px}
+.hero .price-note{font-size:.9rem;color:#bcd8c0}
+.btn{display:inline-block;background:var(--amber);color:#231a02;font-weight:800;
+  text-decoration:none;padding:13px 22px;border-radius:10px;font-size:1.05rem;border:0;cursor:pointer}
+.btn:hover{background:#fbbf24}
+.btn-ghost{display:inline-block;background:transparent;color:#fff;border:2px solid #fff;
+  font-weight:700;text-decoration:none;padding:11px 20px;border-radius:10px}
+.btn-block{width:100%;text-align:center}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.hero img{border-radius:var(--radius);margin-top:20px}
+/* Quick Answer (AEO box) */
+.quick-answer{background:#fffbeb;border:1px solid #fcd34d;border-left:6px solid var(--amber);
+  border-radius:var(--radius);padding:16px 18px;margin:22px 0}
+.quick-answer h2{margin-top:0;font-size:1.05rem;color:#7c4a03}
+.quick-answer p:last-child{margin-bottom:0}
+/* Cards, tables */
+.grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:900px){.grid-3{grid-template-columns:1fr 1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.card h3{margin-top:0}
+.card .price{font-size:1.5rem;font-weight:800;color:var(--green)}
+.card .tag{display:inline-block;background:#e7f2e9;color:var(--green);font-size:.8rem;
+  font-weight:700;padding:2px 9px;border-radius:999px;margin-bottom:8px}
+table{width:100%;border-collapse:collapse;margin:0 0 1.2rem;font-size:.95rem}
+th,td{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:var(--green);color:#fff}
+tbody tr:nth-child(even){background:#f1f5f1}
+.table-scroll{overflow-x:auto}
+/* Estimator + booking */
+.tool{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:22px 0}
+.tool label{display:block;font-weight:700;margin:12px 0 4px}
+.tool select,.tool input,.tool textarea{width:100%;padding:12px;border:1.5px solid #b9c8ba;
+  border-radius:9px;font-size:1rem;font-family:var(--font);background:#fff}
+.tool select:focus,.tool input:focus,.tool textarea:focus{outline:2px solid var(--amber);border-color:var(--amber)}
+.steps{display:flex;gap:6px;margin:0 0 18px;list-style:none;padding:0}
+.steps li{flex:1;text-align:center;font-size:.8rem;font-weight:700;color:var(--muted);
+  border-bottom:3px solid var(--line);padding-bottom:6px;margin:0}
+.steps li.active{color:var(--green);border-color:var(--amber)}
+.step-panel{display:none}.step-panel.active{display:block}
+.size-pick{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.size-pick button{border:2px solid var(--line);background:#fff;border-radius:10px;
+  padding:14px;font-size:1rem;font-weight:700;cursor:pointer;font-family:var(--font)}
+.size-pick button.selected{border-color:var(--amber);background:#fffbeb}
+.result-box{background:#eef7ee;border:1px solid #bbd8bb;border-radius:10px;padding:14px 16px;margin-top:14px}
+.result-box p:last-child{margin-bottom:0}
+.notice{background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:12px 14px;font-size:.95rem}
+.warning{background:#fef2f2;border:1px solid #fecaca;border-radius:10px;padding:12px 14px;font-size:.95rem}
+/* FAQ */
+details{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:10px}
+summary{font-weight:700;cursor:pointer;color:var(--green)}
+details p:last-child{margin-bottom:0}
+/* Breadcrumbs, meta bits */
+.crumbs{font-size:.88rem;color:var(--muted);padding:14px 0 0}
+.crumbs a{color:var(--muted)}
+.updated{font-size:.85rem;color:var(--muted)}
+.city-list{columns:2;column-gap:28px}
+@media(min-width:760px){.city-list{columns:3}}
+.city-list li{break-inside:avoid}
+/* Footer */
+.site-footer{background:var(--green);color:#cde8d4;margin-top:44px;padding:30px 0 90px}
+.site-footer a{color:#fff}
+.site-footer h3{color:#fff;font-size:1rem}
+.site-footer .cols{display:grid;gap:22px;grid-template-columns:1fr}
+@media(min-width:760px){.site-footer .cols{grid-template-columns:1.4fr 1fr 1fr}}
+.site-footer ul{list-style:none;padding:0}
+.site-footer li{margin-bottom:6px}
+/* Sticky mobile bar */
+.sticky-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;gap:8px;
+  background:#fff;border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom))}
+.sticky-bar a{flex:1;text-align:center;padding:12px;border-radius:10px;font-weight:800;text-decoration:none}
+.sticky-bar .call{background:#fff;border:2px solid var(--green);color:var(--green)}
+.sticky-bar .book{background:var(--amber);color:#231a02}
+@media(min-width:760px){.sticky-bar{display:none}.site-footer{padding-bottom:30px}}
+figure{margin:0 0 1.2rem}
+figcaption{font-size:.88rem;color:var(--muted);margin-top:6px}
+.check-list{list-style:none;padding:0}
+.check-list li{padding-left:28px;position:relative;margin-bottom:.6rem}
+.check-list li::before{content:"✓";position:absolute;left:0;color:var(--green-2);font-weight:800}
+.x-list{list-style:none;padding:0}
+.x-list li{padding-left:28px;position:relative;margin-bottom:.6rem}
+.x-list li::before{content:"✕";position:absolute;left:0;color:var(--red);font-weight:800}

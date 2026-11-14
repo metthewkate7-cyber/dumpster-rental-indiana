@@ -1,0 +1,11 @@
+# Cloudflare Pages redirects — dumpsterrentalindiana.us
+# Reserved URL (do NOT build yet): /dumpster-rental-prices-indiana/ is our real-prices page.
+# It stays unbuilt until real business prices are supplied. No redirect for it.
+/index.html / 301
+
+# Semrush validation 2026-11-14: merged/dropped pages (301 to merged section)
+/residential-dumpster-rental-indiana/ /#residential 301
+/yard-waste-dumpster-rental-indiana/ /construction-dumpster-rental-indiana/#materials 301
+/guides/how-much-does-it-cost-to-rent-a-dumpster-in-indiana/ /guides/dumpster-rental-prices-indiana/#cost 301
+/guides/bagster-vs-dumpster-rental/ /guides/dumpster-vs-junk-removal/#bagster 301
+/guides/same-day-dumpster-rental/ /same-day-dumpster-rental-indiana/ 301
