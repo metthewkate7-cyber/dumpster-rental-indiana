@@ -6,12 +6,15 @@ no WordPress. Mobile-first. Cloudflare Pages ready.
 Revised 2026-11-14 after Semrush keyword validation (see "Semrush validation
 applied" below). Page count is now 71.
 
-## Pages: 71
+Second wave built 2026-11-14 (see "Second wave built" below). Page count is now 86.
+
+## Pages: 86
 
 | Group | Count | URLs |
 |---|---|---|
 | Homepage | 1 | `/` |
-| City pages | 44 | `/[city]-dumpster-rental/` for all 44 Indiana cities in the plan |
+| City pages | 57 | `/[city]-dumpster-rental/` for all 57 Indiana cities in the plan |
+| Regional hub pages | 2 | `/dumpster-rental-southern-indiana/`, `/dumpster-rental-northwest-indiana/` |
 | Service pages | 6 | `/construction-`, `/commercial-`, `/same-day-`, `/roofing-`, `/concrete-`, `/home-cleanout-dumpster-rental-indiana/` |
 | Size pages | 4 | `/10-yard-`, `/20-yard-`, `/30-yard-`, `/40-yard-dumpster-rental-indiana/` |
 | Guide pages | 10 | `/guides/` — prices, size selector, permit, what-can-you-put-in, weight limits, driveway damage, rental period, dumpster vs junk removal, overfill, how-to-rent |
@@ -19,10 +22,13 @@ applied" below). Page count is now 71.
 
 Word counts (visible text): homepage ~2,485 (plus ~450 in the folded residential
 section); Phase 1 cities ~1,300–2,000; new cities Avon/Greenfield/Clarksville/
-Shelbyville ~1,532–1,555 each; cities 11–40 ~1,617–1,676 each; services
-~1,100–1,275; sizes ~975–1,010; guides ~1,150–1,560 (pricing guide and
-vs-junk-removal guide grew with the merged sections); trust/legal ~430–1,175.
-No thin pages.
+Shelbyville ~1,532–1,555 each; cities 11–40 ~1,617–1,676 each; second-wave
+cities ~1,422–1,618 each (Warsaw 1,494, Crawfordsville 1,457, New Castle 1,471,
+Martinsville 1,462, Huntington 1,422, Bedford 1,504, Jasper 1,486, Madison 1,559,
+Vincennes 1,559, Corydon 1,618, Lebanon 1,521, Spencer 1,512, Mooresville 1,501);
+regional hubs ~1,462–1,471; services ~1,100–1,275; sizes ~975–1,010; guides
+~1,150–1,560 (pricing guide and vs-junk-removal guide grew with the merged
+sections); trust/legal ~430–1,175. No thin pages.
 
 ## Semrush validation applied (2026-11-14)
 
@@ -65,14 +71,36 @@ one permit guide. No separate Fort Wayne/Indianapolis permit pages exist.
 "Residential dumpsters" entry removed everywhere. City "Services available"
 lists now point at the merged sections (`/#residential`,
 `/construction-dumpster-rental-indiana/#materials`). All service pages say
-"forty-four Indiana cities" and list all 44 cities. Homepage directory lists
-all 44 cities plus the Seymour note.
+"fifty-seven Indiana cities" and list all 57 cities. Homepage directory lists
+all 57 cities plus the Seymour note.
 
-**Second wave (NOT built in this run — future pages):** Warsaw (140/mo),
-Crawfordsville (90), New Castle (70), Martinsville (70), Huntington (50),
-Bedford (50), Jasper (50), Madison (50), Vincennes (50), Corydon (50), Lebanon
-(30–40), Spencer (30), Mooresville (30), plus "dumpster rental southern
-indiana" (110/mo) and "dumpster rental northwest indiana" (70/mo) hub pages.
+## Second wave built (2026-11-14, site live at dumpsterrentalindiana.us)
+
+All 13 second-wave cities + 2 regional hub pages built to the same standard as
+the first 44 cities (~1,500 words, 5 unique FAQs, LocalBusiness + geo schema,
+geo-tagged image, neighbour links). New cities: Warsaw (140/mo), Crawfordsville
+(90), New Castle (70), Martinsville (70), Huntington (50), Bedford (50), Jasper
+(50), Madison (50), Vincennes (50), Corydon (50), Lebanon (30–40), Spencer (30),
+Mooresville (30). Hub pages: "dumpster rental southern Indiana" (110/mo) and
+"dumpster rental northwest Indiana" (70/mo). Homepage directory, all 6 service
+pages, header dropdown ("View all 57 Indiana cities"), footer, and sitemap
+(86 URLs) updated. Audit fixes applied to the drafts: conflicting third-party
+"Hometown Dumpster Rental" price figures removed from all 5 first-batch drafts
+(now the locked Nov 2026 ladder only); 4 broken hero image paths fixed; Madison
+permit facts corrected to the verified Street Occupancy Permit ($50 per 30 days,
+cityofmadison.com — the $10 figure, form code PPD-ROW-02 and 5-foot rule were
+unverified and removed); Huntington permit rule verified ($25 fee, City Engineer
+Office, 60 days); Martinsville hero photo replaced (Brooklyn competitor branding
++ phone in the source); Huntington hero replaced (was a pixel duplicate of
+Warsaw's); Jasper hero replaced (graffiti); broken Vincennes/Corydon/Spencer
+links removed from the Southern hub until those pages existed, then re-added.
+No city-specific permit rule could be verified for Lebanon, Spencer, Mooresville,
+Vincennes, Corydon, Bedford or Jasper — those pages say so honestly and stay
+generic-but-true. Madison transfer-station street number left out (sources
+conflict 611 vs 615 Ivy Tech Drive). H1/title follow the template short form
+("Dumpster Rental [City]" / "[City], IN") like the other 44 cities, not the
+literal ", Indiana" string. Site is LIVE via Cloudflare Pages auto-deploy from
+GitHub main — verify before every push.
 
 ## Pages deliberately NOT built (deferred)
 
@@ -83,11 +111,12 @@ indiana" (110/mo) and "dumpster rental northwest indiana" (70/mo) hub pages.
 
 ## Structure and interlinking
 
-- Homepage is the silo hub: top-10 cities, then a full directory of all 44 cities
+- Homepage is the silo hub: top-10 cities, then a full directory of all 57 cities
   grouped by region (Indianapolis metro, Northeast, Northwest, Central/South),
-  plus all 6 services, 4 sizes, and 10 guides. The home-rental service lives
+  plus all 6 services, 4 sizes, and 10 guides, plus a Regions block linking the
+  2 regional hub pages. The home-rental service lives
   as the `#residential` section on the homepage.
-- Every service page has a "We serve every Indiana city" section with all 44 city links.
+- Every service page has a "We serve every Indiana city" section with all 57 city links.
 - Every city page has a "Services available in [City]" section with all services
   (6 service pages, plus the home-rental section on the homepage and the
   yard-waste materials section on the construction page), plus a sizes section
@@ -105,7 +134,7 @@ indiana" (110/mo) and "dumpster rental northwest indiana" (70/mo) hub pages.
 - `tel:` pay-per-call links are present sitewide but EMPTY until the real phone
   number exists — they show `[PHONE]`.
 
-## Images: 59 WebP files, all under 100KB, 750x500, total ~5.3 MB
+## Images: 74 WebP files, all under 100KB, 750x500, total 5.2 MB (largest 96,026 bytes)
 
 Base photos (generated, realistic): hero green roll-off on a suburban driveway,
 20-yard dumpster, plywood boards under dumpster rails, construction debris loading,
@@ -326,3 +355,44 @@ Unsplash was unusable (pages blocked for text-fetch, curl hits an Anubis challen
 - **Real-phone tap test** of the mobile menu (headless render only, see §1).
 - Domain handover (Hassaan buys dumpsterrentalindiana.us, then live deploy), business name / phone / real address, exact business prices, contact-form backend.
 - Colorado site untouched throughout.
+
+## Model-match apply — 2026-11-14 (match kitchenremodelcoloradosprings.us page by page)
+
+Hassaan's order (voice → echo → tap, 17:17 PKT): Indiana site to match the model site page by page (homepage, services, cities, guides, footer), images unique everywhere, content unique everywhere, then deploy. Model deep study: `~/workspace/hyperlocal-dumpster-rental/research/kitchen-model-deep-study.md` (§h holds the parent's rendered-check corrections).
+
+**Pages: 86 → 90** (+ `/our-process/`, `/warranty-guarantee/`, 2 new guides, all in sitemap; `/404.html` added, NOT in sitemap). Sitemap 90 URLs, all resolving. Stale "44 Indiana" in the homepage trust strip fixed to 57 (grep-verified zero "44"/"forty-four" remains).
+
+### What changed
+- **Homepage:** "Built for Indiana" block (5 H3s, only published facts — no invented 1920s claim); "Before you book: 3 questions" (size / placement / dates, each linking to estimator/booking); size-card timelines ("7 days included" + delivery note) + "MOST POPULAR" badge on the 20-yard card (new `.size-badge` class); per-unit price table (overage $85–$155/ton, extra day $15–$40/day, permit $25–$200 with $75 worked example); estimator result now shows size + price range + overage note + extra-day note + Book-now CTA + "exact price confirmed at booking" line; FAQ made collapsible with "+" toggles (pure CSS).
+- **Service pages (6):** "Honest framework" 3-conditions section, "When this service is WRONG for you" (voice line: "We would rather lose a job than sell you one that disappoints you."), 3-way comparison with the locked Nov 2026 prices, "What is included" list. ~268–278 new words per page.
+- **City pages (57):** local-problem hook paragraph after the Quick Answer + 2-path size comparison with prices and days. 93 new paragraphs on A–L, 26 cities + 2 hubs on M–Z.
+- **Regional hubs (2):** fixed to the model hub template — cost tiers by sub-area, every area listed with a one-line descriptor, 3 local factors each.
+- **Guides (10):** "Published: November 13, 2026" line on all 10; comparison tables at the top of the size/weight/permit guides.
+- **New pages:** `/our-process/` (6 steps, 637 words, 5 FAQs); `/warranty-guarantee/` (placeholders only — no warranty invented, 567 words, 4 FAQs); `/guides/dumpster-rental-mistakes-to-avoid/` (666 words, 5 FAQs); `/guides/red-flags-when-hiring-a-hauler/` (637 words, 5 FAQs; licence/insurance reframed as "No written terms" — the site publishes no licence/insurance advice). New pages are 567–666 words (below the 800+ template floor; no filler added).
+- **404:** styled `/404.html` (site design, links to homepage/services/cities + Call button). Cloudflare Pages serves it automatically.
+- **Palette (verified model values, sampled from rendered pixels):** header/footer/trust strip navy `#0B2545`; buttons green `#4DA768` with navy text (white on #4DA768 fails WCAG AA at 2.98:1; navy on #4DA768 passes at 5.16:1); page background pale mint `#F2FDF5`; headings navy; body slate `#5B6B7F`; "Serving Indiana" pill pale green `#DDF3E6` with dark-green text `#2A6E44` (pure #4DA768 as small text on light backgrounds fails AA at 2.56:1, so the darker same-family green is used only for text on light backgrounds; filled elements stay #4DA768). Hero gradient navy `#0B2545 → #12365C`. Amber removed entirely (zero references remain). Active dropdown label turns green. Verified by headless render (1280px + 390px, screenshots in `~/workspace/hyperlocal-dumpster-rental/palette-verification/`). Two fixes during the pass: pill text was invisible on first render (`.hero p` specificity beat `.hero-pill` — fixed with an explicit rule); green-as-text AA failure (see above).
+- **Footer (completed, identical on all 91 HTML files):** Guides column 6 → 12 (all guides incl. the 2 new ones); new Sizes column (10/20/30/40-yard); Company + Our Process + Warranty; Service Areas top 10 + "View all 57 Indiana cities"; dark-navy CTA card directly above the footer on every page ("Ready to book your dumpster?" + Book now + Call [PHONE]); bottom bar "© 2026 Dumpster Rental Indiana. All rights reserved. Privacy · Terms · Sitemap". Header Guides dropdown also 10 → 12. Footer grid now 6 columns at ≥1000px. Render-verified desktop 1280px (6 columns) and mobile 390px (stacked) with the cached Chromium.
+
+### Images — the corrected truth (2026-11-14, coordinator verification)
+- **Before:** 155 refs, 74 files, 37 distinct pixel visuals. **After applying 60 new files:** 155 refs, 134 distinct files referenced, 107 distinct pixel visuals, 138 files on disk (8.0 MB total, all 750×500 WebP <100KB, 0 oversize).
+- **The 4-visual truth (proven by reading the 10 photos, NOT by hash):** the 57 city hero files are 4 distinct visuals, not 21 — the original build reused a few source images with different crops/encodes, so MD5 saw 8 groups where perception sees 4. Visual 1 (orange dumpsters): hero + Anderson + 9 more cities. Visual 2 (red skip + pallets, Pexels 9669805): Avon + Columbus + 7 more. Visual 3 (blue "irado" skip): Carmel + Hammond + 14 more (16 total). Visual 4 (red dumpster + mountain backdrop): Clarksville + Gary + 4 more. Plus Visual 5 (Warsaw = Southern hub = Pexels 33842119) and Visual 6 (Bedford = Lebanon = Northwest hub). Also proven: **30-yard = construction-loading = roofing** (one worker-throwing-wood shot) and **20-yard = home-cleanout** (one green dumpster on a driveway).
+- **aHash lesson:** Hamming ≤6 overmerges — 4 false positives proven by eye (Ham 2–6, all different photos). Rule going forward: **Ham 0 = same photo; Ham 1–2 = visual review; Ham ≥3 = distinct.**
+- **Remaining multi-use files (10):** hero 6×, 20-yard 4×, 30-yard 4×, 10-yard 3×, construction 3×, boards 3×, 40-yard 2×, fort-wayne 2×, indianapolis 2×, south-bend 2×. **8 Ham-0 clusters remain** (the 4 city visuals + warsaw/southern + bedford/lebanon/northwest + 30/construction/roofing + 20/home-cleanout). **4 orphan files on disk, unreferenced:** boards-driveway-02, boards-driveway-03, construction-debris-02, construction-debris-05 (held/reverted as proven same-photo duplicates of city photos — replace or delete in the retry).
+- **CORRECTION — before/after provenance:** Pexels 9714795 is byte-identical to `before-after-driveway-before.webp` — at least one of the 6 before/after images is actually a Pexels stock photo, not an AI generation. The site carries no AI claim (the note was removed per Hassaan's order), but the "AI-generated" label for that file in this BUILD-NOTE is unproven — do not repeat it. The other 5 before/after files are coordinator-generated; captions stay generic and true.
+- **Photo retry — BLOCKED on a source decision:** Pexels is exhausted (batch E–H: 23 queries, 42 candidates, exactly 1 passed and it was already used). **61 new photos are needed** (39 city/hub swaps + 17 hero/sizes/guide-city + 3 held section images + 2 keep-visual collisions), all from a NON-Pexels source. Recommendation: Pixabay first (largest free skip/dumpster pool), Wikimedia Commons / Openverse fallback. Awaiting the parent/Hassaan's approval to go beyond Pexels (the original photo order said "real photos from anywhere", the coordinator brief said Pexels only). Manifests: `~/workspace/hyperlocal-dumpster-rental/research/manifests/photos-{construction-cleanout,boards-roofing,city-swaps-abcd}.json` + `photos-batch-efgh-gap-report.md`.
+
+### Flags carried forward (not fixed in this phase)
+- **Price tension (sitewide, 17+ city pages):** the comparison sections use the locked full ladder (10yd $399–$599) while the page's own price table shows the narrower statewide typical range (10yd $475–$525). The typical band sits inside the full range and both are labelled market ranges, but a reader can see two different 10-yard ranges on one page. Existing price figures were out of scope — do not rewrite tables unilaterally.
+- **Mobile parity with the model NOT verified:** the model's mobile view was never checked (viewport fixed at 1919px); do not claim mobile parity. Indiana's own mobile menu verification (headless render, 360/390/430px) stands.
+- **Real-phone feel of the mobile menu unproven** (headless render only, pre-existing).
+- **Estimator smoke-tested** (all six result elements present); **live click-through of the dropdown active-green state** verified by code + contrast only, not by a live click.
+- **New pages 567–666 words** (below the 800+ template floor; no filler added).
+
+### Model-match verification (2026-11-14, coordinator re-check, corrected checkers)
+- 90 pages + 404.html = 91 HTML files; header 1 variant, footer 1 variant, CTA card on 91/91 pages.
+- Every page exactly 1 H1 and valid JSON-LD (parsed). **0 broken internal links/anchors** (10,040 refs, 102 unique).
+- 0 prose sentences of 20+ words on content-touched pages; 0 dashes/emojis in changed copy (the 2 "20-word" flags in the first pass were a checker artifact — decimal numbers like "3.5" counted as two words).
+- 138/138 images 750×500 WebP <100KB. EXIF GPS decodes exactly on **57/57** city heroes (including the 6 agent-swapped ones).
+- Placeholders intact ([BUSINESS NAME]/[PHONE]/[ADDRESS]); no reviews/ratings/jobs invented. `node --check assets/js/main.js` passes (JS untouched in this phase).
+- Sitemap 90 URLs, all resolving on disk. Palette + footer render-verified (desktop 1280px, mobile 390px).
+- **NOT committed, NOT pushed** (per instructions). Git: HEAD 98a5a77; 81 modified + 99 untracked = 180 entries. Colorado site untouched.

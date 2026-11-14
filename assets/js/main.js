@@ -34,6 +34,7 @@
         "<h3>Your match: " + s.name + " dumpster</h3>" +
         "<p>It holds " + s.loads + " and fits " + s.fits + ".</p>" +
         "<p>Indiana market range for this size: <strong>" + s.range + "</strong> for a typical 7-day rental (" + s.tons + "). Typical midpoint about <strong>" + s.mid + "</strong>. Source: Ultimate Dumpsters Indiana ladder, Nov 2026. This is the market range, not our price. Our exact price is confirmed when you book.</p>" +
+        "<p>Plan for extra weight and days. Overage runs $85 to $155 per ton across Indiana. Extra days run $15 to $40 per day. Ask for your overage rate and extra day rate before you pay.</p>" +
         heavyNote +
         '<p><a class="btn" href="/book/?size=' + key + '">Book a ' + s.name + ' dumpster</a></p>';
       out.hidden = false;
