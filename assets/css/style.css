@@ -34,7 +34,7 @@ li{margin-bottom:.35rem}
 .main-nav{display:flex;gap:4px;align-items:center}
 .main-nav a{color:#EAF9EF;text-decoration:none;font-size:.92rem;padding:8px 10px;border-radius:8px}
 .main-nav a:hover{background:#ffffff22}
-.nav-cta{display:inline-flex;align-items:center;gap:6px;background:var(--green)!important;color:var(--navy)!important;font-weight:800}
+.nav-cta{display:inline-flex;align-items:center;gap:6px;background:var(--green)!important;color:var(--navy)!important;font-weight:800;text-decoration:none}
 .nav-cta svg{flex:none}
 @media(min-width:761px){.site-header .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center}.brand{justify-self:start}.main-nav{justify-self:center}.nav-cta{justify-self:end}}
 .brand{font-size:.98rem}
