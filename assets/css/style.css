@@ -17,7 +17,7 @@ body{margin:0;font-family:var(--font);color:var(--ink);background:var(--paper);
   font-size:17px;line-height:1.6;-webkit-text-size-adjust:100%}
 img{max-width:100%;height:auto;display:block}
 a{color:var(--green-dark)}
-h1,h2,h3{line-height:1.25;color:var(--navy);margin:0 0 .5rem}
+h1,h2,h3,h4{line-height:1.25;color:var(--navy);margin:0 0 .6rem}
 h1{font-size:1.9rem} h2{font-size:1.45rem;margin-top:2.2rem} h3{font-size:1.15rem;margin-top:1.4rem}
 p{margin:0 0 1rem}
 ul,ol{margin:0 0 1rem;padding-left:1.3rem}
@@ -40,7 +40,7 @@ li{margin-bottom:.35rem}
 .brand{font-size:.98rem}
 /* Hero */
 .hero{background:#EAF9EF;color:var(--ink);padding:64px 0;min-height:88vh;min-height:88svh;display:flex;flex-direction:column;justify-content:center}
-.hero h1{color:var(--navy);font-size:2.3rem;margin-bottom:.6rem}
+.hero h1{color:var(--navy);font-size:2.3rem;margin-bottom:.72rem}
 @media(min-width:761px){.hero h1{font-size:3rem}}
 .hero p{color:var(--ink);max-width:640px}
 .hero .lede{font-size:1.15rem;line-height:1.55}
@@ -143,12 +143,12 @@ details p:last-child{margin-bottom:0}
 .city-list li{break-inside:avoid}
 /* Footer */
 .site-footer{background:var(--navy);color:#D9F2E3;margin-top:44px;padding:30px 0 90px}
-.site-footer a{color:#fff}
+.site-footer a{color:#fff;text-decoration:none}
 .site-footer h3{color:#fff;font-size:1rem}
 .site-footer .cols{display:grid;gap:22px;grid-template-columns:1fr}
 @media(min-width:760px){.site-footer .cols{grid-template-columns:1fr 1fr}}
 @media(min-width:1000px){.site-footer .cols{grid-template-columns:1.3fr 1fr 1fr 1fr 1fr 1fr}}
-.site-footer ul{list-style:none;padding:0}
+.site-footer ul{list-style:disc;padding-left:1.2rem}
 /* Footer CTA card (model pattern: dark card directly above the footer) */
 .footer-cta{background:var(--navy-2);color:#fff;padding:34px 0;text-align:center}
 .footer-cta h2{color:#fff;margin-top:0}
