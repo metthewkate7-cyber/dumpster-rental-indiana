@@ -140,7 +140,7 @@
     }
     frame.addEventListener("pointerdown", function (e) {
       dragging = true;
-      frame.setPointerCapture(e.pointerId);
+      try { frame.setPointerCapture(e.pointerId); } catch (err) { /* pointer already gone; drag still works via pointermove */ }
       setPos(posFromEvent(e));
     });
     frame.addEventListener("pointermove", function (e) {
