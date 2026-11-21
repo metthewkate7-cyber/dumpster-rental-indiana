@@ -229,3 +229,9 @@ summary::-webkit-details-marker{display:none}
 summary::marker{content:""}
 summary::after{content:"+";font-size:1.3rem;font-weight:800;color:var(--green-dark);line-height:1.1;flex:none}
 details[open] summary::after{transform:rotate(45deg)}
+
+/* Hassaan batch 2026-11-21: estimator button gap, content bold, centred images */
+.est-submit{margin-top:18px}
+main p,main li{font-weight:600}
+main figure{margin:24px auto}
+main figure img{margin-left:auto;margin-right:auto}
